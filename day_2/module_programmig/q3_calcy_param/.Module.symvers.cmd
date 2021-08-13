@@ -1,0 +1,1 @@
+cmd_/home/pi/device-drivers/day_2/module_programmig/q3_calcy_param/Module.symvers := sed 's/ko$$/o/' /home/pi/device-drivers/day_2/module_programmig/q3_calcy_param/modules.order | scripts/mod/modpost -m -a   -o /home/pi/device-drivers/day_2/module_programmig/q3_calcy_param/Module.symvers -e -i Module.symvers   -T -
