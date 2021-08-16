@@ -1,0 +1,1 @@
+cmd_/home/pi/Documents/device-drivers/day_5/q3/my_cal_driver.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/Documents/device-drivers/day_5/q3/my_cal_driver.ko /home/pi/Documents/device-drivers/day_5/q3/my_cal_driver.o /home/pi/Documents/device-drivers/day_5/q3/my_cal_driver.mod.o;  true

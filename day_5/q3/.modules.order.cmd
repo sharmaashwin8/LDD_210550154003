@@ -1,0 +1,1 @@
+cmd_/home/pi/Documents/device-drivers/day_5/q3/modules.order := {   echo /home/pi/Documents/device-drivers/day_5/q3/my_cal_driver.ko; :; } | awk '!x[$$0]++' - > /home/pi/Documents/device-drivers/day_5/q3/modules.order

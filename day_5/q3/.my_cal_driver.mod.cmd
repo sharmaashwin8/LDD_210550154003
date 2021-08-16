@@ -1,0 +1,1 @@
+cmd_/home/pi/Documents/device-drivers/day_5/q3/my_cal_driver.mod := { echo  /home/pi/Documents/device-drivers/day_5/q3/my_cal_driver.o;  echo; } > /home/pi/Documents/device-drivers/day_5/q3/my_cal_driver.mod
