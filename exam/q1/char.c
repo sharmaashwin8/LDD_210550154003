@@ -8,6 +8,9 @@
 #include<linux/semaphore.h>
 #include<linux/delay.h>
 
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Ashwin");
+
 char k_buff[50]="this is kernel";
 struct semaphore sem_dev;
 /*srction for addition start*/
@@ -266,6 +269,3 @@ static void calcu_mod_off(void)
 module_init(calcu_mod_on);
 module_exit(calcu_mod_off);
 
-
-MODULE_LICENSE("GPL");
-MODULE_AUTHOR("vinayak");
